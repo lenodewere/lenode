@@ -1,0 +1,5 @@
+build:
+  docker:
+      web: Lennie_W
+run:
+  web: npm start
