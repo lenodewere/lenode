@@ -1,4 +1,4 @@
- <h1 align="center"> Lennie Were </h1> 
+ <h1 align="center"> 𝐋𝐄𝐍𝐍𝐎𝐗 𝐖 </h1> 
 <p align="center"> A simple WhatsApp bot with rich features. </p>
 
  
