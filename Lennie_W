@@ -1,0 +1,30 @@
+#=============================================# 
+#                 v.1.2.9                     #   
+#  
+█░ █▀▀ █▄░█ █▄░█ █ █▀▀
+█▄ ██▄ █░▀█ █░▀█ █ ██▄
+
+█░█░█
+▀▄▀▄▀  # 
+#   # 
+#    # 
+#     𝗠𝗨𝗟𝗧𝗜𝗗𝗘𝗩𝗜𝗖𝗘 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗨𝗦𝗘𝗥 𝗕𝗢𝗧        # 
+#=============================================# 
+#  
+#    * @project_name : Lennie-W 
+#    * @author : @LennieTech 
+# 
+#    * @description : Lennie-W ,A Multi-functional whatsapp bot md. 
+#    * @version 1.2.9 
+#  
+# Don't change this [ /LennieTech/ ] name! 
+# Change from below link, else bot not works! 
+
+
+
+FROM quay.io/lennietechinfo/suhail-v2 
+RUN git clone https://github.com/LennieTechInfoMd/Lennie-Md /root/Lennie 
+WORKDIR /root/Lennie 
+RUN npm install 
+EXPOSE 8000 
+CMD ["npm","start" ] 
